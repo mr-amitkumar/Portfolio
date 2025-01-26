@@ -37,7 +37,7 @@
 
 .navi a {
     padding: 0 40px 0 0;
-    color: rgb(87, 81, 81);
+    color: #575151;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     text-decoration: none;
@@ -69,6 +69,7 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    background: #cbc6c6;
 }
 
 .intro h1 {
@@ -135,6 +136,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: #cbc6c6;
     flex-direction: column;
 }
 
@@ -143,12 +145,13 @@
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
+    color:#2a2a2d
 }
 
 .about p {
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(50, 46, 46);
+    color: #625c5c;
     padding: 8px 0;
     font-weight: bold;
 }
@@ -166,6 +169,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #cbc6c6;
 }
 
 .skills h1 {
@@ -214,8 +218,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #cbc6c6;
     flex-direction: column;
-    margin-top: 50px;
     height: 450px
 }
 
@@ -248,7 +252,10 @@
     font-size: 2.9rem;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #cbc6c6;
     margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 .projects p {
@@ -256,6 +263,8 @@
     font-family: sans-serif;
     color: #3c463e;
     margin-bottom: 50px;
+    background: #cbc6c6;
+
 }
 
 .project-info {
@@ -285,6 +294,7 @@
 .prj p {
     font-weight: bold;
     padding: 10px;
+    background: none;
 }
 
 .prj-btn {
@@ -322,6 +332,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    background: #cecece;
 }
 
 .contact h1 {
@@ -338,6 +349,7 @@
 }
 
 .contact-info {
+    background: white;
     height: 350px;
     width: 650px;
     box-shadow: 2px 1px 9px black;
@@ -374,7 +386,7 @@
     border: none;
     outline: none;
     padding: 5px 20px;
-    background: grey;
+    background: #d56f21;
     width: 550px;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -397,7 +409,7 @@ textarea:focus {
 }
 
 .contact-btn:hover {
-    background: #d56f21;
+    background: grey;
 }
 
 
@@ -412,7 +424,7 @@ textarea:focus {
 
     .logo {
         font-size: 1.2rem;
-        padding: 0 0 0 16px;
+        padding: 0 0 0 25px;
 
     }
 
@@ -439,7 +451,7 @@ textarea:focus {
 
     .icons {
         display: block;
-
+        margin-right: 5%;
     }
 
     #close {
@@ -465,10 +477,14 @@ textarea:focus {
     }
 
     .intro h1{
-        font-size: 25px;
+        font-size: 29px;
+        
     }
     .intro p{
         font-size: 16px ;
+        color: grey;
+        text-align: center;
+        padding:0 20px;
     }
 
 .about{
@@ -477,6 +493,9 @@ textarea:focus {
     align-items: center;
     flex-direction: column;
     padding: 20px;
+}
+.about p{
+    color:grey;
 }
 .about img{
     height: 100px;
@@ -491,7 +510,10 @@ textarea:focus {
     display: flex;
     flex-direction: column;
 }
-
+.info{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 .achive-sec li{
     list-style: disc;
     font-size: 15px;
@@ -524,5 +546,4 @@ textarea:focus {
 }
 .contact p{
     text-align: center;
-}
 }
