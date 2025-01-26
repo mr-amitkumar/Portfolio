@@ -169,7 +169,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
     background: linear-gradient(to right, #f8f8f8, #ececec);
 }
 
@@ -426,7 +426,7 @@ textarea:focus {
     }
 
     .logo img {
-        height: 40px;
+        height: 30px;
     }
 
     .navi {
@@ -501,7 +501,7 @@ textarea:focus {
 
     .about img {
         margin-top: 150px;
-        height: 200px;
+        height: 170px;
         margin-bottom: 40px;
     }
 
@@ -512,7 +512,9 @@ textarea:focus {
         font-weight: 400;
 
     }
-
+    .skills{
+        padding:25% 0 0 0;
+    }
     .skills-info {
         display: flex;
         flex-direction: column;
