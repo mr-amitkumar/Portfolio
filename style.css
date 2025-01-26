@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cointainer {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 3px 2px 9px black;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+
+.logo {
+    padding: 0 0 0 90px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 66px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navi a {
+    padding: 0 40px 0 0;
+    color: rgb(87, 81, 81);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.navi a:hover {
+    text-decoration: underline;
+    transition: all 0.9s ease;
+}
+
+
+/*icons paart*/
+.icons {
+    font-size: 3rem;
+    font-weight: bold;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*Intro Part*/
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.intro h1 {
+    font-size: 3.1rem;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 20px 0;
+}
+
+.intro p {
+    color: #3c463e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    outline: none;
+    background: #e2cd16;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn a:hover {
+    text-decoration: underline;
+    color: #c8360e;
+}
+
+.visit {
+    margin-top: 50px;
+}
+
+.visit a {
+    padding: 10px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 3px 3px 9px black;
+    margin-right: 10px;
+    color: #2b2929;
+}
+
+.visit a:hover {
+    background-color: grey;
+    color: darkmagenta;
+    transition: all 0.3s ease;
+}
+
+/*About Part*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 46, 46);
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+
+.about img {
+    height: 190px;
+    border-radius: 50%;
+}
+
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.skills-info {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 5px;
+    column-gap: 20px;
+}
+
+.info {
+    height: 150px;
+    width: 310px;
+    background: white;
+    text-align: center;
+    box-shadow: 3px 3px 9px black;
+}
+
+.info h3 {
+    padding: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2b2929;
+    font-size: 22px;
+}
+
+.info p {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color: #3c463e
+}
+
+.info:hover {
+    transform: scale(1.1);
+    background: #929292;
+    transition: all 0.5s ease;
+}
+
+.achive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 450px
+}
+
+.achive h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.achive-sec li {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #3c463e;
+}
+
+/*Projects Part*/
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.projects h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color: #3c463e;
+    margin-bottom: 50px;
+}
+
+.project-info {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 5px;
+    column-gap: 20px;
+}
+
+.prj {
+    height: 220px;
+    width: 310px;
+    background: white;
+    text-align: center;
+    box-shadow: 3px 3px 9px black;
+}
+
+.prj h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: #3e3737;
+}
+
+.prj p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.prj-btn {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: #474749;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prj-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prj-btn:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+
+.prj-btn a:visited {
+    color: red;
+}
+
+
+/*Contact me*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contact h1 {
+    font-size: 2.2rem;
+    color: #d56f21;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    color: #474749;
+    padding: 20px
+}
+
+.contact-info {
+    height: 350px;
+    width: 650px;
+    box-shadow: 2px 1px 9px black;
+}
+
+.contact-info form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-info form input {
+    margin-top: 20px;
+    padding: 20px;
+    width: 550px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+.contact-info textarea {
+    margin-top: 20px;
+    padding: 20px;
+    width: 550px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+.contact-btn {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    background: grey;
+    width: 550px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.contact-info input::placeholder,
+textarea::placeholder {
+    color: #3c463e;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-info input:focus,
+textarea:focus {
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+.contact-btn:hover {
+    background: #d56f21;
+}
+
+
+/*responsive part*/
+
+@media (max-width:768px) {
+    .cointainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+        padding: 0 0 0 16px;
+
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .navi {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 180px;
+        background-color: white;
+        display: none;
+        box-shadow: 3px 3px 9px black;
+    }
+
+    .navi a {
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .icons {
+        display: block;
+
+    }
+
+    #close {
+        display: none;
+    }
+
+    #check:checked~.icons #open {
+        transition: all .5s ease-out;
+        display: none;
+    }
+
+    #check:checked~.icons #close {
+        display: block;
+        transition: all .5s ease-out;
+    }
+
+    #check:checked~.navi {
+        display: block;
+    }
+
+    #check:checked~.navi {
+        display: block;
+    }
+
+    .intro h1{
+        font-size: 25px;
+    }
+    .intro p{
+        font-size: 16px ;
+    }
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.about img{
+    height: 100px;
+}
+.about p{
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+.skills-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.achive-sec li{
+    list-style: disc;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+.projects p{
+    text-align: center;
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    height: 350px;
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-info form input,
+.contact-info form textarea,
+.contact-btn{
+    width: 280px;
+}
+.contact p{
+    text-align: center;
+}
+}
