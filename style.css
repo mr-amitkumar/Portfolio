@@ -235,7 +235,7 @@
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    color: #3c463e;
+    color: #5a625b;
 }
 
 /*Projects Part*/
@@ -277,6 +277,7 @@
     background: white;
     text-align: center;
     box-shadow: 3px 3px 9px black;
+    border-radius: 10px;
 }
 
 .prj h3 {
@@ -297,21 +298,21 @@
     border: none;
     outline: none;
     font-size: 1rem;
-    background: #474749;
+    background: #d56f21;
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .prj-btn a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .prj-btn:hover {
-    background-color: black;
+    background-color: grey;
     text-decoration: underline;
 }
 
@@ -328,7 +329,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background: #cecece;
+    background: linear-gradient(to right,#f8f8f8,#ececec);
 }
 
 .contact h1 {
@@ -474,6 +475,7 @@ textarea:focus {
 
     .intro h1{
         font-size: 29px;
+     text-align: center;
         
     }
     .intro p{
