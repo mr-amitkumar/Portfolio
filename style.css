@@ -432,7 +432,8 @@ textarea:focus {
     }
 
     .logo img {
-        height: 40px;
+        display: block;
+        height: 50px;
     }
 
     .navi {
