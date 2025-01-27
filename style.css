@@ -13,45 +13,40 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    padding: 0 20px;
     z-index: 11;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+    padding: 0 0 0 90px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     text-decoration: none;
     font-size: 1.3rem;
-    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .logo img {
-    height: 50px;
-    width: 50px;
+    height: 66px;
     border-radius: 50%;
-    object-fit: cover;
+    margin-right: 10px;
 }
-.navi {
-    display: flex;
-    align-items: center;
-}
+
 .navi a {
-    padding: 0 20px;
+    padding: 0 40px 0 0;
     color: #575151;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     text-decoration: none;
     font-size: 0.9rem;
-    transition: all 0.3s ease;
 }
 
 .navi a:hover {
     text-decoration: underline;
     transition: all 0.9s ease;
-    color: #000;
 }
 
 
@@ -59,7 +54,6 @@
 .icons {
     font-size: 3rem;
     font-weight: bold;
-    cursor: pointer;
     display: none;
 }
 
@@ -113,11 +107,9 @@
     text-decoration: underline;
     color: #c8360e;
 }
-
-.btn:hover {
+.btn:hover{
     transform: scale(1.1);
 }
-
 .visit {
     margin-top: 50px;
     text-align: center;
@@ -177,7 +169,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
     background: linear-gradient(to right, #f8f8f8, #ececec);
 }
 
@@ -356,7 +348,7 @@
     height: 380px;
     border-radius: 10px;
     width: 650px;
-    border: 2px solid grey;
+  border: 2px solid grey;
 }
 
 .contact-info form {
@@ -434,176 +426,7 @@ textarea:focus {
     }
 
     .logo img {
-        height: 60px;
-        width:60px;
-    }
-
-    .navi {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 70%;
-        height: 100vh;
-        background: #fff;
-        flex-direction: column;
-        justify-content: center;
-        gap: 30px;
-        transition: all 0.3s ease;
-        box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .navi a {
-        display: block;
-        margin: 20px;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    .icons {
-        display: block;
-        position: relative;
-        z-index: 12;
-    }
-
-    #close {
-        display: none;
-    }
-
-    #check:checked~.icons #open {
-        transition: all .5s ease-out;
-        display: none;
-    }
-
-    #check:checked~.icons #close {
-        display: block;
-        transition: all .5s ease-out;
-    }
-
-    #check:checked~.navi {
-        display: block;
-    }
-
-    #check:checked~.navi {
-        display: block;
-    }
-
-    .intro h1 {
-        font-size: 41px;
-        text-align: center;
-
-    }
-
-    .intro p {
-        font-size: 16px;
-        color: grey;
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .about {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .about p {
-        color: grey;
-    }
-
-    .about img {
-        margin-top: 150px;
-        height: 170px;
-        margin-bottom: 40px;
-    }
-
-    .about p {
-        font-size: 20px;
-        padding: 10px 20px;
-        text-align: center;
-        font-weight: 400;
-
-    }
-
-    .skills {
-        padding: 25% 0 0 0;
-    }
-
-    .skills-info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .info {
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-
-    .achive-sec li {
-        list-style: disc;
-        font-size: 15px;
-        text-align: center;
-        padding: 0px 30px;
-        margin-bottom: 10px;
-    }
-
-    .projects p {
-        text-align: center;
-    }
-
-    .project-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .prj {
-        height: 250px;
-    }
-
-    .contact-info {
-        height: 390px;
-        width: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .contact-info form input,
-    .contact-info form textarea,
-    .contact-btn {
-        width: 280px;
-    }
-
-    .contact p {
-        text-align: center;
-    }
-
-    .contact h1 {
-        margin-top: 85px;
-    }
-}
-
-
-@media (max-width:1100px) {
-    .cointainer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .logo {
-        font-size: 1.2rem;
-        padding: 0 0 0 25px;
-
-    }
-
-    .logo img {
-        height: 40px;
-        width:40px;
+        height: 30px;
     }
 
     .navi {
@@ -689,11 +512,9 @@ textarea:focus {
         font-weight: 400;
 
     }
-
-    .skills {
-        padding: 25% 0 0 0;
+    .skills{
+        padding:25% 0 0 0;
     }
-
     .skills-info {
         display: flex;
         flex-direction: column;
@@ -722,11 +543,9 @@ textarea:focus {
         justify-content: center;
         align-items: center;
     }
-
-    .prj {
+    .prj{
         height: 250px;
     }
-
     .contact-info {
         height: 390px;
         width: 350px;
@@ -746,7 +565,166 @@ textarea:focus {
         text-align: center;
     }
 
-    .contact h1 {
+    .contact h1{
+        margin-top: 85px;
+    }
+}
+
+
+@media (max-width:1100px){
+    .cointainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+        padding: 0 0 0 25px;
+
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .navi {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 220px;
+        background-color: white;
+        display: none;
+        box-shadow: 3px 3px 9px black;
+    }
+
+    .navi a {
+        display: block;
+        margin: 20px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .icons {
+        display: block;
+        margin-right: 5%;
+    }
+
+    #close {
+        display: none;
+    }
+
+    #check:checked~.icons #open {
+        transition: all .5s ease-out;
+        display: none;
+    }
+
+    #check:checked~.icons #close {
+        display: block;
+        transition: all .5s ease-out;
+    }
+
+    #check:checked~.navi {
+        display: block;
+    }
+
+    #check:checked~.navi {
+        display: block;
+    }
+
+    .intro h1 {
+        font-size: 41px;
+        text-align: center;
+
+    }
+
+    .intro p {
+        font-size: 16px;
+        color: grey;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about p {
+        color: grey;
+    }
+
+    .about img {
+        margin-top: 150px;
+        height: 170px;
+        margin-bottom: 40px;
+    }
+
+    .about p {
+        font-size: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        font-weight: 400;
+
+    }
+    .skills{
+        padding:25% 0 0 0;
+    }
+    .skills-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .achive-sec li {
+        list-style: disc;
+        font-size: 15px;
+        text-align: center;
+        padding: 0px 30px;
+        margin-bottom: 10px;
+    }
+
+    .projects p {
+        text-align: center;
+    }
+
+    .project-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prj{
+        height: 250px;
+    }
+    .contact-info {
+        height: 390px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact-info form input,
+    .contact-info form textarea,
+    .contact-btn {
+        width: 280px;
+    }
+
+    .contact p {
+        text-align: center;
+    }
+
+    .contact h1{
         margin-top: 85px;
     }
 }
