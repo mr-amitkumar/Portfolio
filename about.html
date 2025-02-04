@@ -37,7 +37,7 @@
             About Me
         </h1>
         <p>Hi! I'm <strong>Amit Ku. Mahapatra</strong>, a passionate web developer and designer with a knack for creating</p>
-        <p>modern, user-friendly, and responsive websites. My journey in coding has been fueled with my skilled and
+        <p><span id="element"></span>. My journey in coding has been fueled with my skilled and
             knowledge by</p>
         <p>problem-solving and creativity.</p>
     </section>
@@ -70,3 +70,13 @@
             <li>Passionate contributor to open-source projects on <strong>GitHub</strong>.</li>
         </ul>
     </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Modern', 'User-Friendly','Responsive Designes'],
+      typeSpeed: 50,
+    });
+  </script>
+    </body>
+    </html>
