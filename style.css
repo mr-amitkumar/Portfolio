@@ -306,6 +306,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    padding-top: 290px;
 }
 
 .projects h1 {
@@ -779,6 +780,7 @@ textarea:focus {
 
     .prj {
         height: 250px;
+        margin:10px 0px;
     }
 
     .contact-info {
