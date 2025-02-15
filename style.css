@@ -46,7 +46,7 @@
 }
 
 .navi a:hover {
-    color:grey;
+    color: grey;
     transition: all 0.9s ease;
 }
 
@@ -218,11 +218,11 @@
     animation: 2s popUp ease-out forwards;
     height: 190px;
     border-radius: 50%;
-    cursor:pointer;
-    box-shadow:0px 2px 10px grey;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px grey;
 }
 
-.about img:hover{
+.about img:hover {
     transform: scale(1.1);
     transition: 0.9s ease;
 }
@@ -338,7 +338,7 @@
     gap: 5px;
     padding: 5px;
     column-gap: 20px;
-    padding:20px 0px;
+    padding: 20px 0px;
 }
 
 .prj {
@@ -420,7 +420,8 @@
     height: 380px;
     border-radius: 10px;
     width: 650px;
-    border: 2px solid grey; animation: 2s popUp ease-out forwards;
+    border: 2px solid grey;
+    animation: 2s popUp ease-out forwards;
 }
 
 .contact-info form {
@@ -787,7 +788,13 @@ textarea:focus {
 
     .prj {
         height: 250px;
-        margin:10px 0px;
+        margin: 10px 0px;
+    }
+
+    .prj:hover {
+        transform: rotateZ(-8deg);
+        margin-top: 20px;
+        transition: all 0.5s ease;
     }
 
     .contact-info {
