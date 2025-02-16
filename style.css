@@ -603,9 +603,9 @@ textarea:focus {
         display: none;
     }
     .visit{
-        margin-left: 115px;
+        margin-left: 120px;
     }
-    .btn{    margin-left: 115px;}
+    .btn{    margin-left: 120px;}
     .about {
         display: flex;
         justify-content: center;
