@@ -97,27 +97,31 @@ body {
     animation: 2s popUp ease-out forwards;
     cursor: pointer;
 }
+
 .intropic:hover {
     transform: scale(1.1);
     transition: all 0.8s ease;
 }
+
 /*Intro details styling // start//*/
 
-.home{
+.home {
     font-size: 3.5rem;
-    color:orange;
+    color: orange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     animation: 2s lineUp ease-out backwards;
     animation-iteration-count: 1;
 }
-.name{
+
+.name {
     animation: 4s lineUp ease-out backwards;
     animation-iteration-count: 1;
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
 }
+
 .aboutin,
 .moreabout {
     color: #3c463e;
@@ -126,6 +130,7 @@ body {
     font-weight: 400;
     animation: 2s popUp ease-out forwards;
 }
+
 /*Intro details styling // end//*/
 
 @keyframes lineUp {
@@ -205,23 +210,27 @@ body {
     background: #494343;
 }
 
-.visit{
+.visit {
     margin-top: 20px;
+    animation: 2s popUp ease-out forwards;
 }
-.visit a{
+
+.visit a {
     background-color: #c2ebe8;
     box-shadow: 0px 0px 9px grey;
     border-radius: 50%;
     font-size: 20px;
     padding: 10px 10px;
-    color:#575151;
+    color: #575151;
     margin-left: 6px;
 }
-.visit a:hover{
+
+.visit a:hover {
     background-color: #2a2a2d;
-    color:white;
+    color: white;
     transition: all 0.5s ease;
 }
+
 /*About Part*/
 
 .about {
@@ -518,7 +527,7 @@ textarea:focus {
 
 .contact-btn:hover {
     background: grey;
-    color:tomato;
+    color: tomato;
 }
 
 
@@ -559,7 +568,7 @@ textarea:focus {
         margin: 20px;
         text-align: center;
         font-size: 25px;
-        margin-left:65px
+        margin-left: 65px
     }
 
     .icons {
@@ -594,18 +603,26 @@ textarea:focus {
     .home,
     .name,
     .aboutin,
-    .moreabout{
+    .moreabout {
         text-align: center;
-        padding:0 20px;
+        padding: 0 20px;
     }
 
-    .intropic{
+    .intropic {
         display: none;
     }
-    .visit{
-        margin-left: 170px;
+
+    .visit {
+        margin:37px 0 0 155px ;
+        padding: 0 20px;
     }
-    .btn{    margin-left: 170px;}
+
+    .btn {
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+    }
+
     .about {
         display: flex;
         justify-content: center;
@@ -729,7 +746,7 @@ textarea:focus {
         margin: 20px;
         text-align: center;
         font-size: 25px;
-        margin-left:65px
+        margin-left: 65px
     }
 
     .icons {
