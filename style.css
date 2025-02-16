@@ -166,6 +166,7 @@ body {
     outline: none;
     background: tomato;
     font-size: 20px;
+    margin-top: 30px;
     text-align: center;
     border-radius: 10px;
     animation: alternate showIn 1s ease-out backwards;
@@ -204,28 +205,23 @@ body {
     background: #494343;
 }
 
-.visit {
-    margin-top: 50px;
-    text-align: center;
+.visit{
+    margin-top: 20px;
 }
-
-.visit a {
-    padding: 10px;
+.visit a{
+    background-color: #c2ebe8;
+    box-shadow: 0px 0px 9px grey;
     border-radius: 50%;
-    background: white;
-    text-align: center;
     font-size: 20px;
-    box-shadow: 1px 1px 2px grey;
-    margin-right: 10px;
-    color: #2b2929;
+    padding: 10px 10px;
+    color:#575151;
+    margin-left: 6px;
 }
-
-.visit a:hover {
-    background-color: grey;
-    color: darkmagenta;
-    transition: all 0.3s ease;
+.visit a:hover{
+    background-color: #2a2a2d;
+    color:white;
+    transition: all 0.5s ease;
 }
-
 /*About Part*/
 
 .about {
@@ -606,7 +602,10 @@ textarea:focus {
     .intropic{
         display: none;
     }
-
+    .visit{
+        margin-left: 115px;
+    }
+    .btn{    margin-left: 115px;}
     .about {
         display: flex;
         justify-content: center;
