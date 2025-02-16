@@ -613,8 +613,9 @@ textarea:focus {
     }
 
     .visit {
-        margin:37px 0 0 130px ;
-        padding: 0 10px;
+        /* margin:37px 0 0 130px ;
+        padding: 0 10px; */
+        text-align: center;
     }
 
     .btn {
