@@ -44,7 +44,7 @@ body {
 }
 
 .navi a {
-    animation: 4s lineUp ease-out forwards;
+    animation: 4s popUp ease-out forwards;
     padding: 0 40px 0 0;
     color: #575151;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
