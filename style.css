@@ -495,7 +495,7 @@ body {
     border: none;
     outline: none;
     padding: 5px 20px;
-    background: #d56f21;
+    background: tomato;
     width: 550px;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -520,6 +520,7 @@ textarea:focus {
 
 .contact-btn:hover {
     background: grey;
+    color:tomato;
 }
 
 
