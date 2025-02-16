@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #C9E4CA;
+}
+
 .cointainer {
     display: flex;
     justify-content: space-between;
-    background: #fff;
-    box-shadow: 1px 1px 4px grey;
+    background: #7fd6bc;
+    box-shadow: 1px 2px 12px grey;
     height: 80px;
     align-items: center;
     position: fixed;
@@ -31,9 +35,11 @@
 
 .logo img {
     height: 66px;
+    width: 66px;
     border-radius: 50%;
     margin-right: 10px;
     box-shadow: 0px 0px 10px grey;
+    background-color: white;
 }
 
 .navi a {
@@ -67,20 +73,58 @@
 .intro {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     flex-direction: column;
-    background: linear-gradient(to right, #f8f8f8, #ececec);
 }
 
-.intro h1 {
-    font-size: 3.1rem;
-    color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0 0 20px 0;
+.introabout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.intropic img {
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid grey;*/
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 2px 12px #494343;
+    background-color: #dddcdc;
+    animation: 2s popUp ease-out forwards;
+    cursor: pointer;
+}
+.intropic:hover {
+    transform: scale(1.1);
+    transition: all 0.8s ease;
+}
+/*Intro details styling // start//*/
+
+.home{
+    font-size: 3.5rem;
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     animation: 2s lineUp ease-out backwards;
     animation-iteration-count: 1;
 }
+.name{
+    animation: 4s lineUp ease-out backwards;
+    animation-iteration-count: 1;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.aboutin,
+.moreabout {
+    color: #3c463e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    animation: 2s popUp ease-out forwards;
+}
+/*Intro details styling // end//*/
 
 @keyframes lineUp {
     0% {
@@ -94,14 +138,6 @@
     }
 }
 
-.intro p {
-    color: #3c463e;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 30px;
-    animation: 2s popUp ease-out forwards;
-}
 
 @keyframes popUp {
     0% {
@@ -126,8 +162,9 @@
     padding: 10px 20px 10px 20px;
     border: none;
     outline: none;
-    background: #e2cd16;
+    background: tomato;
     font-size: 20px;
+    text-align: center;
     border-radius: 10px;
     animation: alternate showIn 1s ease-out backwards;
 }
@@ -156,12 +193,13 @@
 }
 
 .btn a:hover {
-    text-decoration: underline;
-    color: #c8360e;
+    color: tomato;
+    transition: all 0.6s ease;
 }
 
 .btn:hover {
     transform: scale(1.1);
+    background: #494343;
 }
 
 .visit {
@@ -193,7 +231,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #f8f8f8, #ececec);
     flex-direction: column;
 }
 
@@ -233,7 +270,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to right, #f8f8f8, #ececec);
 }
 
 .skills h1 {
@@ -254,8 +290,10 @@
 .info {
     height: 150px;
     width: 310px;
-    background: white;
+    background: #c2ebe8;
+    border-radius: 10px;
     text-align: center;
+    cursor: pointer;
     box-shadow: 3px 3px 9px black;
 }
 
@@ -282,7 +320,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #f8f8f8, #ececec);
     flex-direction: column;
     height: 450px
 }
@@ -344,7 +381,7 @@
 .prj {
     height: 220px;
     width: 310px;
-    background: white;
+    background: #c2ebe8;
     text-align: center;
     box-shadow: 3px 3px 9px black;
     border-radius: 10px;
@@ -396,7 +433,6 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(to right, #f8f8f8, #ececec);
 }
 
 .contact h1 {
@@ -416,7 +452,7 @@
 }
 
 .contact-info {
-    background: white;
+    background: #a4aba4;
     height: 380px;
     border-radius: 10px;
     width: 650px;
@@ -439,6 +475,7 @@
     border: none;
     outline: none;
     border-bottom: 2px solid grey;
+    background: transparent;
 }
 
 .contact-info textarea {
@@ -449,6 +486,8 @@
     border: none;
     outline: none;
     border-bottom: 2px solid grey;
+    background: transparent;
+
 }
 
 .contact-btn {
@@ -500,7 +539,8 @@ textarea:focus {
     }
 
     .logo img {
-        height: 90px;
+        height: 60px;
+        width: 60px;
     }
 
     .navi {
@@ -550,17 +590,16 @@ textarea:focus {
         display: block;
     }
 
-    .intro h1 {
-        font-size: 41px;
+    .home,
+    .name,
+    .aboutin,
+    .moreabout{
         text-align: center;
-
+        padding:0 20px;
     }
 
-    .intro p {
-        font-size: 16px;
-        color: grey;
-        text-align: center;
-        padding: 0 20px;
+    .intropic{
+        display: none;
     }
 
     .about {
@@ -665,7 +704,8 @@ textarea:focus {
     }
 
     .logo img {
-        height: 30px;
+        height: 60px;
+        width: 60px;
     }
 
     .navi {
