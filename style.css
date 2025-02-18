@@ -526,8 +526,8 @@ textarea::placeholder {
 
 .contact-info input:focus,
 textarea:focus {
-    box-shadow: 0 0 10px #0ef;
-    border: 2px solid #0ef;
+    box-shadow: 0 0 10px #474545;
+    border: 2px solid #474747;
 }
 
 .contact-btn:hover {
